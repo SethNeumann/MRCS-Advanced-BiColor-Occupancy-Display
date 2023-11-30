@@ -1,33 +1,10 @@
-# REPO NAME: EagleTemplate-new
-## License: CERN Open Hardware Licence v1.2
+# REPO NAME:     MRCS-Advanced-BiColor-Occupancy-Display
+
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
-Delete one of the license lines above, and replace this line and following with the contents of the doc.md file
+The original board, which I designed for Allison Dendy had a pull up SIP (4.7K) and second SIP (nominally 470 ohms) on the common anode to limit
+current. Depending on the 3 lead Red/Green LED used the Red was significantly brighter than the Green. Green/Red brightness is always an issue as 
+about 20% of males have some red/green color weakness, so adjustment is very individual.
 
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Use eagle to create your project
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
-
-This is a template for new eagle designs.
-It includes a blank schematic with a title block ready for editing and a
-default PCB that uses the SPCoast.lbr's BOARD component, Fiducials and an OSHW logo.
-
-First line: A short description of the project, used as a subtitle or tagline
-
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
-
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
-
+This version has an additional DIP resistor pack in series with the Red leads to further limit the Red brigtness. I used A 220 ohm SIP for the common
+anode and 1K for the red. This made the Jameco 2266591 LED appear about as bright on each side to me.
