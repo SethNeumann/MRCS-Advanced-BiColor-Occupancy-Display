@@ -1,0 +1,23 @@
+
+MRCS-Occupancy-Display.brd
+MRCS-Occupancy-Display.sch
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+REV_1 gerbs/MRCS-Occupancy-Display.zip
+*.dri
+*.gpi
+*.s#1
+*.b#1
+*.b#2
+*.b#3
+*.b#4
+*.b#5
+*.b#6
+*.s#2
